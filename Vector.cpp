@@ -10,15 +10,10 @@ using namespace std;
 
 int main()
 {
-	/*int i;
+	int i;
 	int j;
-	int k;
 	cin >> i;
 	cin >> j;
-	cin >> k;
-	Vectores set;*/
-	Vectores set1;
-	set1.VectorUdim();
-	set1.VectorDdim();
-	/*set.Vector(i, j, k);*/
+	Vectores vec;
+	vec.setFilCol(i, j);
 }

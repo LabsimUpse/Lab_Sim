@@ -10,14 +10,19 @@ using namespace std;
 
 class Vectores
 {
+private:
+
+	int a;
+	int b;
+	int c[1][1];
+
+
 public:
 	Vectores();
 	
-	int Length();
-	int VectorUdim();
-	int VectorDdim();
-	/*int Vectores::Componentes(bool a, bool b, bool c, bool d, bool e, bool f, bool g, bool h);*/
-
+	int Vec();
+	void setFilCol(int x, int y);
+	int getFilasColumnas();
 
 	~Vectores();
 };
